@@ -53,7 +53,7 @@
         <a class="btn btn-sm btn-outline-secondary" href="http://localhost/test/sign-up/index.php">Sign up</a>
 <?php else:?>
 <p>Привет, <?=$_COOKIE['log23'] ?></p>
-<a href="http://localhost/test/php/exit.php">выйти нахуй</a>
+<a href="http://localhost/test/php/exit.php">выйти</a>
 
 <?php endif; ?>
       </div>
