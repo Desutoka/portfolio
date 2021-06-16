@@ -58,7 +58,7 @@
         <a class="btn btn-sm btn-outline-secondary" href="..//sign-up/index.php">Sign up</a>
 <?php else:?>
 <p>Привет, <?=$_COOKIE['log23'] ?></p>
-<a href="../php/exit.php">выйти нахуй</a>
+<a href="../php/exit.php">выйти</a>
 
 <?php endif; ?>
       </div>
