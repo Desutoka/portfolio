@@ -13,7 +13,7 @@ $res =mysqli_query($link, $req);
 		header('location:http://localhost/test/blog/index.php');
 }
 else {
-print_r("нахуй ты это делаешь, уебан 1000 ранга?! Обьясняй блять");
+		mysqli_close($link);
 		die();
 }
 mysqli_close($link);
