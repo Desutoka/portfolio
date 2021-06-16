@@ -8,7 +8,6 @@ $someth = "SELECT * FROM `users` WHERE email = '".$soap."' AND login = '".$log."
 $res =mysqli_query($link,$someth);
 $responce=mysqli_num_rows($res);
 		if ($responce!==0){
-			echo "Пиздец, кто-то занял оборону";
 			header('location:http://localhost/test/sign-in/index.php');
 			die();
 		}
